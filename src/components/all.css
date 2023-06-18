@@ -1,0 +1,27 @@
+
+.name-form{
+    min-height:75vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.name-form form{
+    background-color: rgb(236, 234, 226);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 3px solid rgb(117, 184, 194);
+    width: 100%;
+    color:rgb(231, 192, 88)
+    
+}
+h4{
+    color: rgb(73, 243, 181) ;
+}
+
+@media screen and (max-width:768px) {
+    .name-form{
+        min-height: 10px;
+    }
+}
